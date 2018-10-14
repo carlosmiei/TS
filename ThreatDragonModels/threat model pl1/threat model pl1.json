@@ -161,55 +161,6 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "x": 30,
-                "y": 20
-              },
-              "target": {
-                "x": 110,
-                "y": 100
-              },
-              "vertices": [
-                {
-                  "x": 53,
-                  "y": 54
-                },
-                {
-                  "x": 485,
-                  "y": 299
-                },
-                {
-                  "x": 76,
-                  "y": 56
-                }
-              ],
-              "id": "c9d49c3f-45a4-4a83-b7e7-6f7ec90be45a",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "flow 5",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 6,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
             }
           ]
         },
