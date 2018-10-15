@@ -409,8 +409,8 @@
                 "height": 100
               },
               "position": {
-                "x": 662,
-                "y": 218
+                "x": 709,
+                "y": 215
               },
               "angle": 0,
               "id": "09f3b2b4-6669-4c0d-a7f5-8d2c3752f0d8",
@@ -435,8 +435,8 @@
                 "height": 100
               },
               "position": {
-                "x": 1059,
-                "y": 240
+                "x": 1082,
+                "y": 360
               },
               "angle": 0,
               "id": "c7a66266-2065-4ab6-9b4d-4e4fffe8be0d",
@@ -697,8 +697,8 @@
                 "height": 100
               },
               "position": {
-                "x": 1049,
-                "y": 1
+                "x": 1047,
+                "y": 12
               },
               "angle": 0,
               "id": "e89efc61-fde3-4ad5-bd91-614df196a9c3",
@@ -723,8 +723,8 @@
                 "height": 100
               },
               "position": {
-                "x": 1210,
-                "y": 2
+                "x": 1249,
+                "y": 12
               },
               "angle": 0,
               "id": "625be428-1ec9-4d1f-9642-415a02ded722",
@@ -872,7 +872,8 @@
                 "id": "c7a66266-2065-4ab6-9b4d-4e4fffe8be0d"
               },
               "target": {
-                "id": "625be428-1ec9-4d1f-9642-415a02ded722"
+                "x": 1214,
+                "y": 83
               },
               "vertices": [
                 {
@@ -1312,22 +1313,15 @@
                 "height": 80
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 33,
+                "y": 606
               },
               "angle": 0,
-              "id": "90717376-1484-4a38-989e-123a128e0ad2",
+              "id": "20279d09-b525-4bb4-837f-bae5ee2c8303",
               "z": 41,
-              "hasOpenThreats": false,
               "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
                 "text": {
                   "text": "actor 38"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             }
@@ -1335,7 +1329,7 @@
         },
         "size": {
           "height": 1978.750244140625,
-          "width": 1071.2000732421875
+          "width": 1079.2000732421875
         }
       }
     ]
