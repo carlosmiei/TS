@@ -18,8 +18,8 @@
                 "height": 100
               },
               "position": {
-                "x": 830,
-                "y": 557
+                "x": 822,
+                "y": 548
               },
               "angle": 0,
               "id": "f557b501-0c2e-4bf2-8c3c-3572bb19f735",
@@ -44,8 +44,8 @@
                 "height": 100
               },
               "position": {
-                "x": 437,
-                "y": 416
+                "x": 463,
+                "y": 423
               },
               "angle": 0,
               "id": "9e346072-3443-45e7-b18b-76fa602fc463",
@@ -151,13 +151,23 @@
                 }
               ],
               "z": 5,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Man in the middle attack",
+                  "type": "Information disclosure",
+                  "description": "An attacker can intercept the responses in transit and obtain sensitive information",
+                  "mitigation": "Enforce an encrypted connection HTTPS"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -172,8 +182,8 @@
               },
               "vertices": [
                 {
-                  "x": 204,
-                  "y": 370
+                  "x": 322,
+                  "y": 374
                 }
               ],
               "id": "56f8226e-38f0-4819-9fae-61bcc1aea2f3",
@@ -289,7 +299,7 @@
                 "height": 80
               },
               "position": {
-                "x": 809,
+                "x": 820,
                 "y": 851
               },
               "angle": 0,
@@ -887,7 +897,12 @@
               "target": {
                 "id": "f557b501-0c2e-4bf2-8c3c-3572bb19f735"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 881,
+                  "y": 382
+                }
+              ],
               "id": "46c34ff6-b473-45f0-ae28-e2cc8a7c6db6",
               "labels": [
                 {
@@ -902,13 +917,23 @@
                 }
               ],
               "z": 31,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Man in the middle attack",
+                  "type": "Information disclosure",
+                  "description": "An attacker can intercept the informação in transit and obtain sensitive information",
+                  "mitigation": "Enforce an encrypted connection between basestation and back-end"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -1006,6 +1031,10 @@
                 {
                   "x": 982,
                   "y": 727
+                },
+                {
+                  "x": 910,
+                  "y": 661
                 }
               ],
               "id": "fe1d0069-b285-4770-91be-7df75b32f737",
@@ -1022,13 +1051,23 @@
                 }
               ],
               "z": 38,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "description": "An attacker could intercept the DB queries in transit and obtain sensitive information, such as DB credentials, query parameters or query results (is unlikely since the data flow is over a private network).",
+                  "mitigation": "Enforce an encrypted connection at the DB server",
+                  "type": "Information disclosure",
+                  "title": "Man in the middle"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -1103,13 +1142,23 @@
                 }
               ],
               "z": 41,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "Man in the middle",
+                  "type": "Information disclosure",
+                  "description": "An attacker could intercept the DB queries in transit and obtain sensitive information, such as DB credentials, query parameters or query results (is unlikely since the data flow is over a private network).",
+                  "mitigation": "Enforce an encrypted connection at the DB server"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
