@@ -139,7 +139,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 4",
+                      "text": "Web response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -178,20 +178,20 @@
               },
               "vertices": [
                 {
-                  "x": 305,
-                  "y": 689
+                  "x": 230,
+                  "y": 663
                 }
               ],
               "id": "56f8226e-38f0-4819-9fae-61bcc1aea2f3",
               "labels": [
                 {
                   "position": {
-                    "distance": 0.3872626190639714,
-                    "offset": 40.85342816915363
+                    "distance": 0.36034897610136735,
+                    "offset": 4.644660506397486
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 5",
+                      "text": "Web request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -230,7 +230,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 6",
+                      "text": "Web request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -238,15 +238,25 @@
                 }
               ],
               "z": 7,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isPublicNetwork": true,
               "isEncrypted": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "t",
+                  "type": "Information disclosure",
+                  "description": "t",
+                  "mitigation": "t"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -261,10 +271,6 @@
               },
               "vertices": [
                 {
-                  "x": 371,
-                  "y": 704
-                },
-                {
                   "x": 316,
                   "y": 708
                 }
@@ -278,7 +284,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 7",
+                      "text": "Web response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -442,7 +448,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "wsn15"
+                  "text": "atuador"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -468,7 +474,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "wsn 16"
+                  "text": "atuador"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -496,7 +502,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 17",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -504,13 +510,23 @@
                 }
               ],
               "z": 19,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "t",
+                  "type": "Tampering",
+                  "description": "t",
+                  "mitigation": "t"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -535,7 +551,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 19",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -574,7 +590,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 20",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -582,13 +598,23 @@
                 }
               ],
               "z": 23,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "t",
+                  "type": "Repudiation",
+                  "description": "t",
+                  "mitigation": "t"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -611,7 +637,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "wsn21"
+                  "text": "atuador"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -625,7 +651,7 @@
                 "height": 100
               },
               "position": {
-                "x": 1346,
+                "x": 1341,
                 "y": 23
               },
               "angle": 0,
@@ -637,7 +663,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "wsn 22"
+                  "text": "atuador"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -668,7 +694,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 23",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -676,13 +702,23 @@
                 }
               ],
               "z": 26,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "t",
+                  "mitigation": "tt",
+                  "title": "t"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -710,7 +746,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 24",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -749,7 +785,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 25",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -757,13 +793,23 @@
                 }
               ],
               "z": 28,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "title": "t",
+                  "description": "t",
+                  "mitigation": "t"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -791,7 +837,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 26",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -833,7 +879,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 27",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -872,7 +918,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 28",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -924,7 +970,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 29",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -932,13 +978,23 @@
                 }
               ],
               "z": 32,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "t",
+                  "type": "Tampering",
+                  "description": "t",
+                  "mitigation": "t"
+                }
+              ],
               "attrs": {
                 ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
+                  "class": "marker-target hasOpenThreats isInScope"
                 },
                 ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
+                  "class": "connection hasOpenThreats isInScope"
                 }
               }
             },
@@ -963,7 +1019,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 30",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1003,7 +1059,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 35",
+                      "text": "Query response",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1073,7 +1129,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 31",
+                      "text": "Query request",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1168,7 +1224,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "flow 32",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1204,10 +1260,13 @@
               "id": "45e6ecbd-b0ff-4a09-ba6e-5d97f31766db",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.014114617864640263,
+                    "offset": 159.5894148480147
+                  },
                   "attrs": {
                     "text": {
-                      "text": "flow 33",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1215,7 +1274,25 @@
                 }
               ],
               "z": 45,
-              "attrs": {}
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "t",
+                  "type": "Tampering",
+                  "description": "t",
+                  "mitigation": "t"
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasOpenThreats isInScope"
+                }
+              }
             },
             {
               "type": "tm.Flow",
@@ -1238,7 +1315,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "flow 34",
+                      "text": "",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1246,7 +1323,15 @@
                 }
               ],
               "z": 46,
-              "attrs": {}
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },
